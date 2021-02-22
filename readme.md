@@ -7,14 +7,21 @@
          or other types of files.
     - Given two identical excel files, write an application that compares for any differences in the cells.
     - If two identical columns have cells which do not have the same value, colour the cell red.
+### Requirements
+   1. Pandas
+         ```bash
+            pip install pandas
+         ```
   
 ### How to use
     - run python file_compare_app.py and supply the excel sheets to compare.
     - Example sheets and the result are found in examples folder
+    - Upload sheet1 and sheet2 from the computer and hit compare
+    - This will create a new file called comparison.xlsx, which can also be viewed after creation
 
 ### Extra steps
     - Make it into an app using pyinstaller using the following commands
-``` bash
-pip install pyinstaller
-pyinstaller file_compare_app.py 
-```
+   ```bash
+   pip install pyinstaller
+   pyinstaller file_compare_app.py 
+   ```
