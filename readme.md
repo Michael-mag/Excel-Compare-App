@@ -1,7 +1,8 @@
 ### File Compare App
-
-    - Given two identical excel files, this app compares for any differences in the cells.
-    - It returns a comparison file, which contains the cells side by side and differences marked in red
+    ***TASK DESCRIPTION***
+    - For a car manufacturer, it is important to know if the same sensor in different cars produce different  readings under the same conditions. The data is recorded in large files, for instance, excel files or other types of files.
+    - Given two identical excel files, write an application that compares for any differences in the cells.
+    - If two identical columns have cells which do not have the same value, colour the cell red.
   
 ### How to use
     - run python file_compare_app.py and supply the excel sheets to compare.
