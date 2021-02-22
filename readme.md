@@ -12,6 +12,10 @@
          ```bash
             pip install pandas
          ```
+   2. Numpy
+         ```bash
+            pip install numpy
+         ```
   
 ### How to use
     - run python file_compare_app.py and supply the excel sheets to compare.
